@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.sheth.RestApiAutomation.TestTwitterPostApi">
+        <methods>
+          <include name="testPostAccountSetting"/>
+        </methods>
+      </class> <!-- com.sheth.RestApiAutomation.TestTwitterPostApi -->
+      <class name="com.sheth.RestApiAutomation.TestTwitterGetApi">
+        <methods>
+          <include name="testGetData"/>
+        </methods>
+      </class> <!-- com.sheth.RestApiAutomation.TestTwitterGetApi -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
